@@ -97,21 +97,21 @@ export default function Testimonials() {
         >
           {testimonials.map((t, i) => (
             <SwiperSlide key={i}>
-              <div className="bg-white border border-gold/30 rounded-2xl shadow-md px-6 py-8 h-full flex flex-col justify-between min-h-[320px] w-full max-w-xl mx-auto relative">
-                <div className='mb-6'>
-                  <div className="flex items-center gap-1 mb-2">
+              <div className="bg-white border border-gold rounded-2xl shadow-md px-6 py-8 h-full flex flex-col justify-between min-h-[250px] w-full max-w-xl mx-auto relative">
+                <div className=''>
+                  <div className="flex items-center gap-1 mb-4">
                     {[...Array(t.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-gold fill-gold" />
+                      <Star key={i} className="w-5 h-5 text-amber-300 fill-amber-300" />
                     ))}
                   </div>
-                  <p className="text-purple text-base mb-4 font-semibold">
+                  <p className="text-purple text-base mb-4">
                     {t.text.split('!')[0]}!
                     <br />{t.text.split('!').slice(1).join('!')}
                   </p>
-                  <Quote className="absolute top-6 right-6 text-gold/30 w-8 h-8" />
+                  <Quote className="absolute top-6 right-6 text-gold w-8 h-8" />
                 </div>
                 <div className="flex items-center gap-3">
-                  <Image src={t.avatar} alt={t.name} width={40} height={40} className="rounded-full object-cover border-2 border-gold" />
+                  <Image src={t.avatar} alt={t.name} width={40} height={40} className="rounded-full object-cover border-2 border-amber-300" />
                   <div>
                     <div className="font-semibold text-purple text-sm">{t.name}</div>
                     {t.title && <div className="text-xs text-gold">{t.title}</div>}
