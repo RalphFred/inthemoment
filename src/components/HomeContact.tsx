@@ -39,9 +39,7 @@ export default function HomeContact() {
                   <div>
                     <p className="font-medium">Visit Us</p>
                     <p className="text-gray-300">
-                      123 Financial Street,
-                      Suite 100,
-                      Atlanta, GA 30303
+                      123 Financial Street, Suite 100, Atlanta, GA 30303
                     </p>
                   </div>
                 </div>
