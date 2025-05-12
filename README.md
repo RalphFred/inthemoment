@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# In the Moment - Professional Accounting Services
+
+A modern, responsive website for In the Moment, a professional accounting and tax preparation service. Built with Next.js and Tailwind CSS, this website showcases the company's services, testimonials, and provides an easy way for clients to get in touch.
+
+## Features
+
+- 🎨 Modern, responsive design
+- ⚡ Built with Next.js 14 and App Router
+- 🎭 Smooth animations using Framer Motion
+- 📱 Mobile-first approach
+- 🎯 SEO optimized
+- 🖼️ Optimized images with Next.js Image component
+- 💅 Styled with Tailwind CSS
+- 🔍 Interactive testimonials carousel
+- 📝 Contact form with validation
+
+## Tech Stack
+
+- **Framework:** Next.js 14
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide Icons
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.17 or later
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/RalphFred/inthemoment
+cd inthemoment
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+inthemoment/
+├── app/                 # App router pages
+├── components/         # React components
+├── public/            # Static assets
+└── styles/            # Global styles
+```
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The site is configured for easy deployment on Vercel. Simply connect your GitHub repository to Vercel for automatic deployments.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Jarde' - [@inthemoment](https://twitter.com/inthemoment)
+
+Project Link: [https://inthemoment.raphaels.studio/](https://inthemoment.raphaels.studio/)

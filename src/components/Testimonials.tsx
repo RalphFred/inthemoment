@@ -12,42 +12,42 @@ const testimonials = [
     name: "Kristen Kennard",
     title: "",
     text: "My husband and I had an incredible experience with Jarde' and her team. We were communicated with consistently and all our questions were answered quickly. Highly recommend!",
-    avatar: "https://randomuser.me/api/portraits/women/1.jpg",
+    avatar: "https://ui-avatars.com/api/?name=Kristen+Kennard&background=8B5CF6&color=fff",
     rating: 5
   },
   {
     name: "Asya Richardson",
     title: "",
     text: "Jarde truly understands the unique needs of small businesses. She does a stellar job with tax prep and empowers you to manage your books. Highly recommend In the Moment!",
-    avatar: "https://randomuser.me/api/portraits/women/2.jpg",
+    avatar: "https://ui-avatars.com/api/?name=Asya+Richardson&background=8B5CF6&color=fff",
     rating: 5
   },
   {
     name: "Mionna",
     title: "",
     text: "Always great, easy, speedy service! Very professional and makes me feel heard. I recommend!",
-    avatar: "https://randomuser.me/api/portraits/women/3.jpg",
+    avatar: "https://ui-avatars.com/api/?name=Mionna&background=8B5CF6&color=fff",
     rating: 5
   },
   {
     name: "Mr. Mont",
     title: "",
     text: "Our experience with Jarde' as our tax preparer was exceptional. She was informative, thorough, and made tax season stress-free. Highly recommend her services!",
-    avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+    avatar: "https://ui-avatars.com/api/?name=Mr+Mont&background=8B5CF6&color=fff",
     rating: 5
   },
   {
     name: "RollinsCafe LLC",
     title: "",
     text: "Jarde and the team provide excellent customer service with my taxes every year. We truly appreciate their professionalism and care.",
-    avatar: "https://randomuser.me/api/portraits/men/2.jpg",
+    avatar: "https://ui-avatars.com/api/?name=RollinsCafe&background=8B5CF6&color=fff",
     rating: 5
   },
   {
     name: "Inez Chimhangariso",
     title: "",
     text: "Jarde' and team were on point. Personable, professional, and prompt. I will definitely use them again!",
-    avatar: "https://randomuser.me/api/portraits/women/4.jpg",
+    avatar: "https://ui-avatars.com/api/?name=Inez+Chimhangariso&background=8B5CF6&color=fff",
     rating: 5
   }
 ];
